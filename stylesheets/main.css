@@ -1,24 +1,24 @@
-.text-padding-home-icon {
-    padding-top: 18%;
-}
-
 @font-face {
     font-family: 'JosefinSans';
     src: url('fonts/JosefinSans.ttf') format('truetype');
 }
 
-html body,h1,h2,h3,h4,h5,h6,p {
+html body,h1,h2,h3,h4,h5,h6,p,th,td {
     font-family: "JosefinSans";
+    font-weight: 500;
 }
 
-h1 {
-    font-weight: 500;
+html body {
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
     overflow: hidden;
+    margin-left: -35px;
+    margin-right: -35px;
 }
 
 /* Style the links inside the navigation bar */
