@@ -58,3 +58,7 @@ html body {
 .body-display {
     padding-right: 15px;
 }
+
+.center {
+    text-align: center;
+}
